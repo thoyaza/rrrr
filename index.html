@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحة الأمن السيبراني والروابط</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 10px;
+            text-align: right;
+            background: linear-gradient(to bottom right, #90e0ef, #0077b6);
+        }
+        .main-image-container {
+            text-align: center;
+            margin-bottom: 15px;
+        }
+        .main-image {
+            width: 100%;
+            max-width: 100%;
+            height: 200px;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            object-fit: cover;
+        }
+        table {
+            width: 90%;
+            border-collapse: collapse;
+            margin: 20px auto;
+            background-color: white;
+            box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+        }
+        td {
+            padding: 10px;
+            border: 1px solid #e0e0e0;
+            vertical-align: middle;
+        }
+        .links-cell a {
+            display: block;
+            margin-bottom: 8px;
+            text-decoration: none;
+            color: #0056b3;
+            font-weight: 600;
+            padding: 4px;
+            transition: color 0.3s;
+        }
+        .links-cell a:hover {
+            color: #17a2b8;
+        }
+        .images-cell {
+            text-align: left;
+        }
+        .images-cell div {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 10px;
+        }
+        .images-cell img {
+            width: 70px;
+            height: 70px;
+            border-radius: 6px;
+            object-fit: cover;
+            border: 2px solid #343a40;
+            background-color: #e9ecef;
+        }
+        .social-icons {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .social-icons img {
+            width: 50px;
+            height: 50px;
+            margin: 0 10px;
+            vertical-align: middle;
+            transition: transform 0.3s;
+            cursor: pointer;
+        }
+        .social-icons img:hover {
+            transform: scale(1.2);
+        }
+        footer {
+            text-align: center;
+            margin-top: 25px;
+            padding: 15px;
+            background-color: rgba(255,255,255,0.7);
+            border-radius: 12px;
+            font-weight: bold;
+            color: black;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="main-image-container">
+        <img src="images/b.jpg" alt="صورة رئيسية للأمن السيبراني" class="main-image">
+    </div>
+
+    <table>
+        <tbody>
+            <tr>
+                <td class="links-cell">
+                    <a href="https://www.youtube.com/" target="_blank">انتقل إلى اليوتيوب</a>
+                    <a href="https://www.facebook.com/" target="_blank">انتقل إلى الفيسبوك</a>
+                    <a href="https://www.instagram.com/" target="_blank">انتقل إلى الانستجرام</a>
+                    <a href="https://m.me/YOUR_FACEBOOK_USERNAME" target="_blank">انتقل إلى الماسنجر</a>
+                </td>
+                <td class="images-cell">
+                    <div>
+                        <img src="images/c.jpg" alt="صورة أمان 1" title="أمن الشبكات">
+                        <img src="images/d.jpg" alt="صورة أمان 2" title="حماية من الفيروسات">
+                        <img src="images/e.jpg" alt="صورة أمان 3" title="جدار الحماية">
+                        <img src="images/f.jpg" alt="صورة أمان 4" title="تشفير البيانات">
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="social-icons">
+        <h2>لتواصل معنا</h2>
+        
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/60px-WhatsApp.svg.png" 
+             alt="أيقونة واتساب" title="تواصل عبر واتساب"
+             onclick="window.open('https://wa.me/967781614644','_blank')">
+
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/60px-Telegram_logo.svg.png" 
+             alt="أيقونة تليجرام" title="تواصل عبر تليجرام"
+             onclick="window.open('https://t.me/yaman56g','_blank')">
+    </div>
+
+    <footer>
+        الحقوق محفوظة © إعداد المهندس: ذويزن عبدالنور الشميري
+    </footer>
+
+</body>
+</html>
